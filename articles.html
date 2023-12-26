@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+        
+
+        <div id="num_article">There are {{article_length}} articles generated. Click on each to see the Wikipedia article! </div>
+            <div id="articles">
+                <table>
+                    {% for (article, id, text, link) in rows %}
+                        <tr>
+                            <td><br><a id="link" href = {{link}} target="_blank">{{article}}</a></td>    
+                        </tr>
+
+                    {% endfor %}
+                </table>
+            </div>
+        
+        <div id="click_topic">
+            <a href = "/topic">Click here to view the Topic Model</a>
+        </div>
+        
+    </body>

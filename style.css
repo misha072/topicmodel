@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    margin: 2em;
+    background-color: #E1EAF3;
+    font-size: x-large;
+    text-align: center;
+}
+
+h1 {
+    color: #3E7AB7;
+    text-align: center;
+}
+
+#num_article {
+    padding: 60px;
+}
+
+#articles {
+    font-size: 0.8em;
+    height: 500px; 
+    overflow: auto;
+    /* display & justify-content allow the
+    overflow text to be in center of page */
+    display: flex;
+    justify-content: center;
+    background-color: #D7E5F3;
+    border-color: black;
+}
+
+#click_topic {
+    padding: 80px;
+}
+
+#topic_model {
+    font-size: 0.5em;
+    height: 1000px;
+    overflow: auto;
+    /* display & justify-content allow the
+    overflow text to be in center of page */
+    display: flex;
+    justify-content: center;
+    background-color: #D7E5F3;
+    border-color: black;
+}
+
+#a_text {
+    font-size: 0.8em;
+    height: 500px; 
+    overflow: auto;
+    /* display & justify-content allow the
+    overflow text to be in center of page */
+    display: flex;
+    justify-content: center;
+    background-color: #D7E5F3;
+    border-color: black;
+}
